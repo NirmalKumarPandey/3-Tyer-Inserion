@@ -19,7 +19,7 @@ function App() {
         getDataFromServer();
       }}>Get Data</button>
       {playerdata.map((ele, i) => {
-        return <div>
+        return <div key={i}>
           <button type='button' id='player'>{ele.playerName}</button>
           <button type='button' id='age'>{ele.age}</button>
           <button type='button' id='teamName'>{ele.teamName}</button>
