@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+#player {
+  background-color: red;
+  border: 10px 100px 10px gray;
+  margin: 2px;
+}
+
+#age {
+  background-color: blue;
+  border: 10px 100px 10px gray;
+  margin: 2px;
+  color: white;
+}
+
+#teamName {
+  background-color: aqua;
+  border: 10px 10px 10px gray;
+  margin: 2px;
+
+}
+
+#email {
+  background-color: crimson;
+  border: 100px 10px 10px gray;
+  margin: 2px;
+}
